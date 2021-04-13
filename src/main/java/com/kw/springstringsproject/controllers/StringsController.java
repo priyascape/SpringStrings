@@ -14,7 +14,7 @@ public class StringsController {
 		
 		@RequestMapping("/random")
 		public String springOther() {
-			return "Sping Boot is great! SO easy to respond with strings";
+			return "Spring Boot is great! SO easy to respond with strings";
 		}
 
 }
