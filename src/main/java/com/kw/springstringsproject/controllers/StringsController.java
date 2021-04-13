@@ -9,12 +9,12 @@ public class StringsController {
 		@RequestMapping("/")
 		    // 3. Method that maps to the request route above
 		    public String hello() { // 3
-		            return "Hello World!";
+		            return "Hello Coding Dojo Tutor, How are you doing?!";
 		}
 		
-		@RequestMapping("/hello")
-		public String helloOther() {
-			return "Hello to the rest of the universe";
+		@RequestMapping("/random")
+		public String springOther() {
+			return "Sping Boot is great! SO easy to respond with strings";
 		}
 
 }
